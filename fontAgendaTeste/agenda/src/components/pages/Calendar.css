@@ -1,0 +1,101 @@
+/* Estilos gerais do contêiner */
+.container {
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Espaçamento interno */
+    max-width: 1200px; /* Limita a largura máxima */
+    margin: auto; /* Centraliza o contêiner horizontalmente */
+}
+
+/* Estilos para o título da página */
+.container h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilos para o título da data dos eventos */
+.container h2 {
+    font-size: 22px;
+    color: #444;
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+/* Contêiner para a lista de eventos */
+.event-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 3 colunas responsivas */
+    gap: 20px; /* Espaçamento entre os cards */
+    padding: 20px;
+    justify-content: center; /* Centraliza o grid horizontalmente */
+}
+
+/* Card de evento */
+.event-card {
+    border: 1px solid #ddd; /* Borda leve */
+    border-radius: 8px; /* Cantos arredondados */
+    padding: 15px;
+    background-color: #fff; /* Fundo branco */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    transition: box-shadow 0.3s ease; /* Transição suave para hover */
+    display: flex; /* Flexbox para centralizar o conteúdo interno */
+    flex-direction: column; /* Organiza os itens na vertical */
+    align-items: center; /* Centraliza horizontalmente */
+}
+
+/* Efeito ao passar o mouse sobre o card */
+.event-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
+}
+
+/* Estilos de título do evento */
+.event-card h3 {
+    margin: 0 0 10px; /* Margem inferior */
+    font-size: 18px;
+    color: #333;
+}
+
+/* Estilos de texto do evento */
+.event-card p {
+    margin: 0 0 5px; /* Margem inferior */
+    color: #666;
+}
+
+/* Botão para ver detalhes */
+.details-button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave para hover */
+    text-align: center; /* Centraliza o texto dentro do botão */
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+.details-button:hover {
+    background-color: #0056b3; /* Cor de fundo mais escura */
+}
+
+/* Contêiner para os botões de navegação */
+.button-container {
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+/* Botão para navegação */
+.navigation-button {
+    margin: 0 10px; /* Espaçamento horizontal */
+    padding: 10px 15px;
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave para hover */
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+.navigation-button:hover {
+    background-color: #0056b3; /* Cor de fundo mais escura */
+}
